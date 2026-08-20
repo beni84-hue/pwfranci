@@ -372,7 +372,9 @@ p {
 }
 
 .imagen-marco img {
-  min-height: 360px;
+  width: 100%;
+  height: auto; /* Permite que la imagen encoja de forma natural */
+  max-height: 450px; /* Evita que crezca infinitamente en pantallas enormes */
   object-fit: cover;
   border-radius: var(--radio);
   box-shadow: var(--sombra);
