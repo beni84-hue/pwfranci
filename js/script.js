@@ -134,6 +134,16 @@ document.addEventListener("DOMContentLoaded", function () {
                                   </a>
                                 </li>
 
+                                   <li>
+                                  <a
+                                    href="https://www.tiktok.com/search?q=igr.francia.oficial&t=1787243810400"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    TikTok
+                                  </a>
+                                </li>
+
                                
                             </ul>
                         </div>
