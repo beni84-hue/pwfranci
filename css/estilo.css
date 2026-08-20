@@ -464,7 +464,9 @@ p {
 }
 
 .diapositiva img {
-  height: 540px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* Mantiene la proporción de pantalla panorámica en cualquier dispositivo */
   object-fit: cover;
 }
 
@@ -1470,5 +1472,54 @@ html {
 
   .dato-historia {
     align-items: flex-start;
+  }
+}
+
+/* ======================================================
+   RESPONSIVE DESIGN (MÓVILES Y TABLETAS)
+====================================================== */
+
+@media (max-width: 992px) {
+  /* Convierte las rejillas de 3, 4 y 5 columnas en 2 columnas para tabletas */
+  .rejilla-tres,
+  .rejilla-cuatro,
+  .rejilla-enlaces {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  /* Hace que las secciones tengan menos espacio arriba/abajo en el celular */
+  .seccion {
+    padding: 50px 0;
+  }
+
+  /* Fuerzas a que todas las columnas se pongan una debajo de otra (1 sola columna) */
+  .dos-columnas,
+  .rejilla-dos,
+  .contacto-rejilla,
+  .rejilla-tres,
+  .rejilla-cuatro,
+  .rejilla-enlaces {
+    grid-template-columns: 1fr;
+    gap: 30px; /* Reduce la separación de las cajas en móvil */
+  }
+
+  /* Ajusta el texto del carrusel para que no tape toda la imagen en el teléfono */
+  .texto-diapositiva {
+    padding: 30px 15px 15px;
+  }
+
+  .texto-diapositiva h3 {
+    font-size: 1.2rem;
+  }
+
+  /* Ajuste para el Banner Principal (Hero) en móviles */
+  .hero {
+    min-height: 450px;
+  }
+
+  .lema {
+    font-size: 1.05rem;
   }
 }
