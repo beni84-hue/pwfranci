@@ -1523,3 +1523,36 @@ html {
     font-size: 1.05rem;
   }
 }
+
+/* Fuerza a que los elementos dentro de la tarjeta destacada se organicen en vertical */
+.evento-destacado {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+/* Asegura que el año ocupe todo el ancho y empuje el título hacia abajo */
+.evento-destacado .fecha-historia {
+  display: block !important;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Restablece la separación interna de la tarjeta destacada */
+.evento-destacado {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important; /* Elimina cualquier separación automática exagerada */
+  align-items: flex-start !important;
+}
+
+/* Controla el espacio debajo del año 2003 */
+.evento-destacado .fecha-historia {
+  margin-bottom: 10px !important;
+}
+
+/* Controla el espacio debajo del título de la tarjeta destacada */
+.evento-destacado h3 {
+  margin-top: 0 !important;
+  margin-bottom: 13px !important;
+}
