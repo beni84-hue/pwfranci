@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { archivo: "index.html", nombre: "Inicio" },
     { archivo: "quienes_somos.html", nombre: "Quiénes somos" },
     { archivo: "oferta_academica.html", nombre: "Oferta académica" },
-    { archivo: "docentes.html", nombre: "Docentes" },
+    { archivo: "historia.html", nombre: "Docentes" },
     { archivo: "actividades.html", nombre: "Actividades" },
     { archivo: "contacto.html", nombre: "Contacto" },
   ];
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <li><a href="index.html">Inicio</a></li>
                                 <li><a href="quienes_somos.html">Quiénes somos</a></li>
                                 <li><a href="oferta_academica.html">Oferta académica</a></li>
-                                <li><a href="docentes.html">Docentes</a></li>
+                                <li><a href="historia.html">Docentes</a></li>
                                 <li><a href="actividades.html">Actividades</a></li>
                                 <li><a href="contacto.html">Contacto</a></li>
                             </ul>
