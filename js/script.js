@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { archivo: "index.html", nombre: "Inicio" },
     { archivo: "quienes_somos.html", nombre: "Quiénes somos" },
     { archivo: "oferta_academica.html", nombre: "Oferta académica" },
-    { archivo: "historia.html", nombre: "Docentes" },
+    { archivo: "historia.html", nombre: "Historía" },
     { archivo: "actividades.html", nombre: "Actividades" },
     { archivo: "contacto.html", nombre: "Contacto" },
   ];
