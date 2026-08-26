@@ -361,14 +361,20 @@ p {
 
 .rejilla-tres {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* Crea hasta 3 columnas, pero si hay menos elementos, los centra */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
+  justify-content: center;
   gap: 25px;
+  width: 100%;
 }
 
 .rejilla-cuatro {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  /* Crea hasta 4 columnas, pero si pones solo 3, quedarán centradas en pantalla */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 280px));
+  justify-content: center;
   gap: 20px;
+  width: 100%;
 }
 
 .imagen-marco img {
