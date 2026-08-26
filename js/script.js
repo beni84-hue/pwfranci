@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <h3>Contacto</h3>
 
                             <ul>
-                                <li>Teléfono: +504 98125552</li>
+                                <li>Teléfono: +504 9812-5552</li>
                                 <li>Correo: republicafrancia145@gmail.com</li>
                                  <li>
                                   <a
