@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="creditos">
                         © ${anio} Instituto Gubernamental República de Francia.
-                        Proyecto desarrollado por Oscar Benitez.
+                        Todos los derechos reservados
                     </div>
 
                 </div>
