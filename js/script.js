@@ -144,7 +144,16 @@ document.addEventListener("DOMContentLoaded", function () {
                                   </a>
                                 </li>
 
-                               
+                                <li>
+                                  <a
+                                    href="https://www.instagram.com/igr.francia/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    Instagram
+                                  </a>
+                                </li>
+
                             </ul>
                         </div>
 
