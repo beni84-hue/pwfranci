@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             </p>
 
                             <p>
-                                Barrio el Centro, frente a la Secretaria de Salud., Tegucigalpa, Honduras, 504.
+                                Barrio el Centro, frente a la Secretaria de Salud. Tegucigalpa, Honduras, 504.
                             </p>
                         </div>
 
